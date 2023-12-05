@@ -17,7 +17,7 @@ if result == 1:
 elif result == 2:
     print(random.choice(kancke_lista))
 
-else result == 3:
+else:
     print(random.choice(Nej_lista))
 
 
