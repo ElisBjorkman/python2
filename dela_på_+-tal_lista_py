@@ -1,0 +1,18 @@
+
+list1 = [3, 7, -10, -11, 2]
+pluslist2 = []
+minuslist3 = []
+
+for i in range(len(list1)):
+
+    if list1[i] <0:
+        minuslist3.append(list1[i])
+    else:
+        pluslist2.append(list1[i])
+
+print(list1)
+print(pluslist2)
+print(minuslist3)
+
+
+
